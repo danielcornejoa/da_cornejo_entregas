@@ -1,0 +1,181 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red250\green118\blue146;\red255\green255\blue255;\red218\green216\blue215;
+\red103\green207\blue146;\red175\green133\blue254;\red123\green148\blue255;\red254\green202\blue131;\red117\green194\blue238;
+\red123\green124\blue123;}
+{\*\expandedcolortbl;;\cssrgb\c99176\c55226\c63740;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c88331\c87546\c87436;
+\cssrgb\c46611\c83487\c63797;\cssrgb\c74356\c61435\c99790;\cssrgb\c55563\c66186\c100000;\cssrgb\c99946\c82658\c58219;\cssrgb\c52341\c80610\c94662;
+\cssrgb\c55748\c55748\c55678;}
+{\info
+{\author Daniel Antonio Cornejo Arbea}
+{\*\copyright 320 studio}}\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 import\cf4 \strokec4  \cf5 \strokec5 'package:flutter/material.dart'\cf4 \strokec4 ;\
+\
+\cf2 \strokec2 void\cf4 \strokec4  \cf6 \strokec6 main\cf4 \strokec4 () \{\
+  \cf6 \strokec6 runApp\cf4 \strokec4 (\cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 MyApp\cf4 \strokec4 ());\
+\}\
+\
+\cf2 \strokec2 class\cf4 \strokec4  \cf7 \strokec7 MyApp\cf4 \strokec4  \cf2 \strokec2 extends\cf4 \strokec4  \cf7 \strokec7 StatelessWidget\cf4 \strokec4  \{\
+  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 MyApp\cf4 \strokec4 (\{\cf2 \strokec2 super\cf4 \strokec4 .\cf8 \strokec8 key\cf4 \strokec4 \});\
+\
+  \cf9 \strokec9 @override\cf4 \strokec4 \
+  \cf7 \strokec7 Widget\cf4 \strokec4  \cf6 \strokec6 build\cf4 \strokec4 (\cf7 \strokec7 BuildContext\cf4 \strokec4  \cf8 \strokec8 context\cf4 \strokec4 ) \{\
+    \cf2 \strokec2 return\cf4 \strokec4  \cf7 \strokec7 MaterialApp\cf4 \strokec4 (\
+      \cf8 \strokec8 debugShowCheckedModeBanner\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 false\cf4 \strokec4 ,\
+      \cf8 \strokec8 home\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Scaffold\cf4 \strokec4 (\
+        \cf8 \strokec8 appBar\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 AppBar\cf4 \strokec4 (\
+          \cf8 \strokec8 backgroundColor\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .white,\
+          \cf8 \strokec8 elevation\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 0\cf4 \strokec4 ,\
+          \cf8 \strokec8 leading\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Icon\cf4 \strokec4 (\
+            \cf7 \strokec7 Icons\cf4 \strokec4 .arrow_back,\
+            \cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Color\cf4 \strokec4 .\cf6 \strokec6 fromARGB\cf4 \strokec4 (\cf7 \strokec7 255\cf4 \strokec4 , \cf7 \strokec7 138\cf4 \strokec4 , \cf7 \strokec7 13\cf4 \strokec4 , \cf7 \strokec7 78\cf4 \strokec4 ),\
+          ),\
+          \cf8 \strokec8 title\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+            \cf5 \strokec5 'Acceder'\cf4 \strokec4 ,\
+            \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Color\cf4 \strokec4 .\cf6 \strokec6 fromARGB\cf4 \strokec4 (\cf7 \strokec7 255\cf4 \strokec4 , \cf7 \strokec7 138\cf4 \strokec4 , \cf7 \strokec7 13\cf4 \strokec4 , \cf7 \strokec7 78\cf4 \strokec4 )),\
+          ),\
+        ),\
+        \cf8 \strokec8 body\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 SingleChildScrollView\cf4 \strokec4 (\
+          \cf8 \strokec8 physics\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 BouncingScrollPhysics\cf4 \strokec4 (\
+            \cf8 \strokec8 parent\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 AlwaysScrollableScrollPhysics\cf4 \strokec4 (),\
+          ),\
+          \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Padding\cf4 \strokec4 (\
+            \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf7 \strokec7 16.0\cf4 \strokec4 ),\
+            \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Column\cf4 \strokec4 (\
+              \cf8 \strokec8 crossAxisAlignment\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 CrossAxisAlignment\cf4 \strokec4 .stretch,\
+              \cf8 \strokec8 children\cf2 \strokec2 :\cf4 \strokec4  [\
+                \cf10 \strokec10 // Zona de Pesta\'f1as\cf4 \strokec4 \
+                \cf7 \strokec7 Row\cf4 \strokec4 (\
+                  \cf8 \strokec8 children\cf2 \strokec2 :\cf4 \strokec4  [\
+                    \cf7 \strokec7 Expanded\cf4 \strokec4 (\
+                      \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Container\cf4 \strokec4 (\
+                        \cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 45\cf4 \strokec4 ,\
+                        \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                          \cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .purple,\
+                          \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .purple, \cf8 \strokec8 width\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 2\cf4 \strokec4 ),\
+                        ),\
+                        \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\
+                          \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+                            \cf5 \strokec5 'IDENTIF\'cdCATE'\cf4 \strokec4 ,\
+                            \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .white),\
+                          ),\
+                        ),\
+                      ),\
+                    ),\
+                    \cf7 \strokec7 Expanded\cf4 \strokec4 (\
+                      \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Container\cf4 \strokec4 (\
+                        \cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 45\cf4 \strokec4 ,\
+                        \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                          \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .purple, \cf8 \strokec8 width\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 2\cf4 \strokec4 ),\
+                        ),\
+                        \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\cf5 \strokec5 'REG\'cdSTRATE'\cf4 \strokec4 )),\
+                      ),\
+                    ),\
+                  ],\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20\cf4 \strokec4 ),\
+                \cf10 \strokec10 // Zona de Campos de Texto\cf4 \strokec4 \
+                \cf7 \strokec7 Container\cf4 \strokec4 (\
+                  \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 symmetric\cf4 \strokec4 (\
+                    \cf8 \strokec8 horizontal\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 12\cf4 \strokec4 ,\
+                    \cf8 \strokec8 vertical\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 16\cf4 \strokec4 ,\
+                  ),\
+                  \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                    \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .grey),\
+                    \cf8 \strokec8 borderRadius\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BorderRadius\cf4 \strokec4 .\cf6 \strokec6 circular\cf4 \strokec4 (\cf7 \strokec7 4\cf4 \strokec4 ),\
+                  ),\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Align\cf4 \strokec4 (\
+                    \cf8 \strokec8 alignment\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Alignment\cf4 \strokec4 .centerLeft,\
+                    \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+                      \cf5 \strokec5 'Identificador o email'\cf4 \strokec4 ,\
+                      \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .grey),\
+                    ),\
+                  ),\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 10\cf4 \strokec4 ),\
+                \cf7 \strokec7 Container\cf4 \strokec4 (\
+                  \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 symmetric\cf4 \strokec4 (\
+                    \cf8 \strokec8 horizontal\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 12\cf4 \strokec4 ,\
+                    \cf8 \strokec8 vertical\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 16\cf4 \strokec4 ,\
+                  ),\
+                  \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                    \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .grey),\
+                    \cf8 \strokec8 borderRadius\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BorderRadius\cf4 \strokec4 .\cf6 \strokec6 circular\cf4 \strokec4 (\cf7 \strokec7 4\cf4 \strokec4 ),\
+                  ),\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Align\cf4 \strokec4 (\
+                    \cf8 \strokec8 alignment\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Alignment\cf4 \strokec4 .centerLeft,\
+                    \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+                      \cf5 \strokec5 'Contrase\'f1a'\cf4 \strokec4 ,\
+                      \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .grey),\
+                    ),\
+                  ),\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20\cf4 \strokec4 ),\
+                \cf10 \strokec10 // Zona de Bot\'f3n de Acceder\cf4 \strokec4 \
+                \cf7 \strokec7 Padding\cf4 \strokec4 (\
+                  \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 symmetric\cf4 \strokec4 (\cf8 \strokec8 horizontal\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20.0\cf4 \strokec4 ),\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Container\cf4 \strokec4 (\
+                    \cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 45\cf4 \strokec4 ,\
+                    \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                      \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .green, \cf8 \strokec8 width\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 2\cf4 \strokec4 ),\
+                      \cf8 \strokec8 borderRadius\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BorderRadius\cf4 \strokec4 .\cf6 \strokec6 circular\cf4 \strokec4 (\cf7 \strokec7 28\cf4 \strokec4 ),\
+                    ),\
+                    \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\cf5 \strokec5 'Acceder'\cf4 \strokec4 )),\
+                  ),\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 10\cf4 \strokec4 ),\
+                \cf10 \strokec10 // Zona de Texto de Olvido de Contrase\'f1a\cf4 \strokec4 \
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+                    \cf5 \strokec5 'He olvidado la contrase\'f1a'\cf4 \strokec4 ,\
+                    \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Color\cf4 \strokec4 .\cf6 \strokec6 fromARGB\cf4 \strokec4 (\cf7 \strokec7 255\cf4 \strokec4 , \cf7 \strokec7 29\cf4 \strokec4 , \cf7 \strokec7 171\cf4 \strokec4 , \cf7 \strokec7 241\cf4 \strokec4 )),\
+                  ),\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20\cf4 \strokec4 ),\
+                \cf10 \strokec10 // Zona de Botones de Redes Sociales\cf4 \strokec4 \
+                \cf7 \strokec7 Padding\cf4 \strokec4 (\
+                  \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 symmetric\cf4 \strokec4 (\cf8 \strokec8 horizontal\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20.0\cf4 \strokec4 ),\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Container\cf4 \strokec4 (\
+                    \cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 45\cf4 \strokec4 ,\
+                    \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                      \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .red, \cf8 \strokec8 width\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 2\cf4 \strokec4 ),\
+                      \cf8 \strokec8 borderRadius\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BorderRadius\cf4 \strokec4 .\cf6 \strokec6 circular\cf4 \strokec4 (\cf7 \strokec7 28\cf4 \strokec4 ),\
+                    ),\
+                    \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\cf5 \strokec5 'Iniciar con Google'\cf4 \strokec4 )),\
+                  ),\
+                ),\
+                \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 SizedBox\cf4 \strokec4 (\cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 10\cf4 \strokec4 ),\
+                \cf7 \strokec7 Padding\cf4 \strokec4 (\
+                  \cf8 \strokec8 padding\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 EdgeInsets\cf4 \strokec4 .\cf6 \strokec6 symmetric\cf4 \strokec4 (\cf8 \strokec8 horizontal\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 20.0\cf4 \strokec4 ),\
+                  \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Container\cf4 \strokec4 (\
+                    \cf8 \strokec8 height\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 45\cf4 \strokec4 ,\
+                    \cf8 \strokec8 decoration\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BoxDecoration\cf4 \strokec4 (\
+                      \cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .black,\
+                      \cf8 \strokec8 border\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Border\cf4 \strokec4 .\cf6 \strokec6 all\cf4 \strokec4 (\
+                        \cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Color\cf4 \strokec4 .\cf6 \strokec6 fromARGB\cf4 \strokec4 (\cf7 \strokec7 255\cf4 \strokec4 , \cf7 \strokec7 0\cf4 \strokec4 , \cf7 \strokec7 0\cf4 \strokec4 , \cf7 \strokec7 0\cf4 \strokec4 ),\
+                        \cf8 \strokec8 width\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 2\cf4 \strokec4 ,\
+                      ),\
+                      \cf8 \strokec8 borderRadius\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 BorderRadius\cf4 \strokec4 .\cf6 \strokec6 circular\cf4 \strokec4 (\cf7 \strokec7 28\cf4 \strokec4 ),\
+                    ),\
+                    \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 const\cf4 \strokec4  \cf7 \strokec7 Center\cf4 \strokec4 (\
+                      \cf8 \strokec8 child\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Text\cf4 \strokec4 (\
+                        \cf5 \strokec5 'Acceder con Apple'\cf4 \strokec4 ,\
+                        \cf8 \strokec8 style\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 TextStyle\cf4 \strokec4 (\cf8 \strokec8 color\cf2 \strokec2 :\cf4 \strokec4  \cf7 \strokec7 Colors\cf4 \strokec4 .white),\
+                      ),\
+                    ),\
+                  ),\
+                ),\
+              ],\
+            ),\
+          ),\
+        ),\
+      ),\
+    );\
+  \}\
+\}\
+\
+}
